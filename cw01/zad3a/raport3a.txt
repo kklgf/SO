@@ -1,0 +1,348 @@
+MAIN_STATIC:
+
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 3
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 1
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 5
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 14
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+#################################################
+MAIN_SHARED:
+
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 16
+ sys time: 1
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+#################################################
+MAIN_DYNAMIC:
+
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 14
+ sys time: 1
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+#################################################
+Dla tych przykładów wszystkie biblioteki działają 
+w podobnym szybko. 
+W rzeczywistości działanie bibliotek ładowanych
+dynamicznie jest trochę wolniejsze przez konieczność
+ich ładowania przez program, nadrabiają jednak
+na zużyciu pamięci.
+Kolejne są biblioteki dzielone,
+dzięki ładowaniu przy uruchomieniu programu
+działają trochę szybciej pozwalając
+na ich wykorzystanie przez różne programy.
+Biblioteki statyczne są najszybsze,
+jednakże tracą na innych ograniczeniach.

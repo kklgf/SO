@@ -1,0 +1,107 @@
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 14
+ sys time: 1
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0

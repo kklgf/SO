@@ -1,0 +1,340 @@
+OPTIMIZATION LEVEL O0:
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 1
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 19
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+#################################################
+OPTIMIZATION LEVEL O3:
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 18
+ sys time: 0
+user time: 1
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+#################################################
+OPTIMIZATION LEVEL Os:
+
+
+Few pairs (5)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+More pairs (10)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 2
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Many pairs (100)
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 14
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Identical
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Similar
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+Different
+
+create_table
+real time: 0
+ sys time: 0
+user time: 0
+
+compare_pairs
+real time: 1
+ sys time: 0
+user time: 0
+
+remove_block
+real time: 0
+ sys time: 0
+user time: 0
+
+
+#################################################
+O0: optymalizacja czasu kompilacji (domyślna wartość)
+O3: optymalizacja wielkości kodu oraz czasu wykonywania (poziom 3)
+Os: optymalizacja wielkości kodu wynikowego
+Kolejne optymalizacje powodują skrócenie
+czasu wykonania.
+
